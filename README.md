@@ -1,6 +1,6 @@
 # air-quality-analisis
 Merupakan analisis kualitas udara di beberapa kota\
-daftar nama kota\
+daftar nama-nama kota 
 1. Aotizhongxin
 2. Changping
 3. Dingling
