@@ -32,3 +32,5 @@ data_dir = '/content/drive/MyDrive/Air-quality-dataset/'
 
 ## Run streamlit app
 streamlit run dasrboard.py
+![Screenshot 2024-12-22 190221](https://github.com/user-attachments/assets/4882b8b1-f1b0-4152-b779-113ecc3e00e5)
+
