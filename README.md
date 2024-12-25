@@ -19,15 +19,15 @@ daftar nama-nama kota
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install -r requirements.txt
-!pip install -r /content/drive/MyDrive/path/to/requirements.txt
+!pip install -r requirements.txt \
+!pip install -r /content/drive/MyDrive/path/to/requirements.txt \
 data_dir = '/content/drive/MyDrive/Air-quality-dataset/' 
 
 ## setup Environment - Terminal 
 1. Clone repository ini:
    
-   git clone https://github.com/letmisyr/air-quality-dashboard.git \
-   cd air-quality-dashboard
+   git clone https://github.com/letmisyr/air-quality-analisis.git \
+   cd air-quality-analisis
    
 2. Install dependensi:
    pip install -r requirements.txt
@@ -37,7 +37,7 @@ data_dir = '/content/drive/MyDrive/Air-quality-dataset/'
    - Kolom yang diperlukan: 'year', 'station', 'hour', 'AQI', 'AQI Category', 'PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3', 'TEMP', 'PRES', 'DEWP', 'RAIN', 'WSPM'
 
 ## Run streamlit app
-streamlit run dashboard.py\
+streamlit run dasboard.py\
 
 You can now view your Streamlit app in your browser.
 
