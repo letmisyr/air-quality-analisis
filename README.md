@@ -26,7 +26,7 @@ data_dir = '/content/drive/MyDrive/Air-quality-dataset/'
 ## setup Environment - Terminal 
 1. Clone repository ini:
    
-   git clone https://github.com/letmisyr/air-quality-dashboard.git
+   git clone https://github.com/letmisyr/air-quality-dashboard.git\
    cd air-quality-dashboard
    
 2. Install dependensi:
