@@ -24,15 +24,15 @@ drive.mount('/content/drive')
 data_dir = '/content/drive/MyDrive/Air-quality-dataset/' 
 
 ## setup Environment - Terminal 
-1. Clone this repository:
+1. Clone repository ini:
    
    git clone https://github.com/letmisyr/air-quality-dashboard.git
    cd air-quality-dashboard
    
-2. Install dependencies:
+2. Install dependensi:
    pip install -r requirements.txt
    
-3. Place your data file:
+3. Tempatkan file data:
    - Pastikan all_data.csv berada di direktori root proyek
    - Kolom yang diperlukan: 'year', 'station', 'hour', 'AQI', 'AQI Category', 'PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3', 'TEMP', 'PRES', 'DEWP', 'RAIN', 'WSPM'
 
