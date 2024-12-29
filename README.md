@@ -42,7 +42,8 @@ streamlit run dasboard.py\
 You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8502
-  Network URL: http://10.16.71.56:8502
+  Network URL: http://10.16.66.60:8502
+
 
 
 
